@@ -66,6 +66,39 @@ p {
     line-height: 1.4;
 }
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 10%;
+    margin: 5%;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    width: 72%;
+
+}
+
+.topnav a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.headerimage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -100,6 +133,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 
 .middle-content .boxes .box {
     width: 12.5%;
@@ -143,4 +177,137 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*  ABOUT PAGE CSS  */
+
+.aboutheaderimage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 3%;
+    flex-wrap: wrap;
+}
+
+.topline {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: -2%;
+    width: 88%;   
+}
+
+.row1cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6%;
+    width: 90%;
+}
+
+.strategycont {
+    width: 48%;
+}
+
+.howweworkcont {
+    width: 48%;
+}
+
+.placesweworkcont {
+    width: 48%;
+}
+
+.collaborationcont {
+    width: 48%;
+}
+
+.strategyheader {
+    margin-top: 2%;
+}
+
+.placesweworkheader {
+    margin-top: 2%;
+}
+
+.collaborationheader {
+    margin-top: 2%;
+}
+
+.learnbutton1 {
+    font-size: 12px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    width: 30%;
+    padding: 2%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.howweworkheader {
+    margin-top: 2%;
+}
+
+.learnbutton2 {
+    font-size: 12px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    width: 30%;
+    padding: 2%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.row2cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6%;
+}
+
+.learnbutton3 {
+    font-size: 12px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    width: 30%;
+    padding: 2%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.learnbutton4 {
+    font-size: 12px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    width: 30%;
+    padding: 2%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.contentline {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.worktogethercont {
+    display: flex;
+    flex-direction: column;
+    margin: 6%;
+}
+
+.navbarbottom {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 90%;
+    margin: 5%;
+}
+
+.navbarbottom > a {
+    margin-right: 8%;
 }
