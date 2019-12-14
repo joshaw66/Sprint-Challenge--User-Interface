@@ -300,7 +300,7 @@ footer nav a {
 }
 
 .navbarbottom {
-    border: solid white;
+
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
